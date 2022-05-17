@@ -170,7 +170,5 @@ solution1 = astar_search(grid1)
 path_states(solution1)
 ```
 ## OUTPUT:
-
-Explain the Completeness and complexity of the algorithm:
-
+![image](https://user-images.githubusercontent.com/75235167/168839244-a4057b24-7caf-4820-a5c5-86aacfe3791e.png)
 ## RESULT:
