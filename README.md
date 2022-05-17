@@ -1,23 +1,28 @@
 # A* Path Finding Algorithm for 2D Grid World
 ## AIM
-
 To develop a code to find the route from the source to the destination point using A* algorithm for 2D grid world.
 
 ## THEORY
-Explain the problem statement
-
+We try to use the A* algorithm to navigate through a 2D Gird environment. We provide the algorithm with the inital and goal states, and then let the algorithm calculate the Heuristic function to decide the path nodes. And finally, we return the path nodes to the user.
 ## DESIGN STEPS
 
 ### STEP 1:
-Build a 2D grid world with initial state , goal state and obstacles:
+Build a 2D grid world with initial state , goal state and obstacles
 
 ### STEP 2:
+Create a class with the appropriate functions.
 
+### STEP 3:
+Build a 2D grid world with the initial state, goal state, and obstacles.
 
-### STEP -> Write your own steps:
+### STEP 4:
+Mention its evaluation function f(n) = g(n) + h(n)
 
+### STEP 5:
+The algorithm finds the best optimal solution.
 
 ## Draw the 2D 
+![WhatsApp Image 2022-05-17 at 9 00 56 PM](https://user-images.githubusercontent.com/75235167/168856512-6716d7e3-45e9-451e-a0a1-e35792b8d683.jpeg)
 
 ## PROGRAM
 ```python3
@@ -171,4 +176,10 @@ path_states(solution1)
 ```
 ## OUTPUT:
 ![image](https://user-images.githubusercontent.com/75235167/168839244-a4057b24-7caf-4820-a5c5-86aacfe3791e.png)
+
+![WhatsApp Image 2022-05-17 at 9 00 34 PM](https://user-images.githubusercontent.com/75235167/168856421-c29aface-c134-44b1-bfdb-919ad3c49bca.jpeg)
+
+The algorithm is able to find the solution path for the given problem. A* Search Algorithm is often used to find the shortest path from one point to another point.
+
 ## RESULT:
+Hence, A* Algorithm was implemented to find the route from the source to the destination point in a 2D gird World.
