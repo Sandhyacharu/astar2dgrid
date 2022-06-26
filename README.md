@@ -1,4 +1,4 @@
-### EX NO: 01
+### EX NO: 04
 ### DATE:
 # <p align="center">A* Path Finding Algorithm for 2D Grid World</p>
 
